@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+# MLflow keeps its runs here (created when you run the scripts)
+mlflow.db
+mlruns/
+mlartifacts/

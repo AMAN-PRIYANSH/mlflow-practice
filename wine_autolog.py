@@ -5,6 +5,8 @@ wine_autolog.py - the MLflow quickstart from the second MLflow document:
 
     python wine_autolog.py
 """
+import matplotlib
+matplotlib.use("Agg")             # draw autolog's charts to files, no window needed
 import mlflow
 import mlflow.sklearn
 from sklearn.datasets import load_wine
